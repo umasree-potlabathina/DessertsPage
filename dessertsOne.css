@@ -27,10 +27,8 @@
 
 .navBar li {
   list-style: none;
-  padding: 13px 20px;
-
+  padding: 13px 12px;
   font-weight: 600;
-  font-size: 18px;
 }
 
 .info-line {
@@ -241,7 +239,7 @@ main {
 }
 
 .partThree input {
-  width: 400px;
+  width: 350px;
   padding: 10px;
   border: 1px solid #966c24;
   background-color: #eb7581;
@@ -279,9 +277,14 @@ footer {
 
 footer:hover {
  background-color: #f9b0a6;
+ border-top: #7b1c10b2;
 }
 
 @media screen and (1550px <= width <= 2100px) {
+  .navBar li {
+    font-size: 20px;
+   }
+
   .desserts {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -305,6 +308,10 @@ footer:hover {
 }
 
 @media screen and (1100px <= width <= 1550px) {
+  .navBar li {
+    font-size: 20px;
+   }
+
   .desserts {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -328,6 +335,10 @@ footer:hover {
 }
 
 @media screen and (700px <= width <= 1100px) {
+  .navBar li {
+    font-size: 18px;
+   }
+
   .desserts {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -351,6 +362,10 @@ footer:hover {
 }
 
 @media screen and (300px <= width <= 700px) {
+   .navBar li {
+    font-size: 15px;
+   }
+
   .banner h1 {
     text-align: center;
   }
@@ -374,6 +389,10 @@ footer:hover {
 
   .card p {
     text-align: center;
+  }
+
+  .bestSeller {
+    font-size: 15px;
   }
 
   .bannerThree {
